@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    font-family: 'Lora', serif;
+}
+
+header{
+    background-image: linear-gradient(90deg, #D58A6E, #A3CEEF);
+    max-width: 100%;
+}
+
+#titulo{
+    margin: 23px 0px 0px 10px;
+    position: absolute;
+    display: inline-block;
+    color: white;
+    max-width: 100%;
+}
+
+#logo{
+    width: 5.5rem;
+    display: inline-block;
+    max-width: 100%;
+}
+
+#navegador{
+    display: inline-block;
+    list-style-type: none;
+    max-width: 100%;
+    float: right;
+    margin: 0px;
+    background-color: #F0F0F0;
+    padding: 0rem 0rem 0rem 63.1rem;
+}
+
+#bienvenido{
+    display: inline-block;
+    padding-right: 20px;
+    margin-left: 15px;
+    color: #636363;
+}
+
+.Elementos{
+    display: inline-block;
+    margin-left: -5px;
+    padding: 15px 20px;
+    border-left: solid 1px #B8B8B8;
+    text-decoration: none;
+}
+
+.Vinculos{
+    color: #636363;
+    text-decoration: none;
+}
+
+.Elementos:hover{
+    transition: ease-in-out 0.4s;
+    background-color: white;
+    cursor: pointer;
+}
+
+section{
+    min-height: calc(100vh - 1.3rem - 100px);
+    max-width: 100%;
+    margin: 20px 0px;
+}
+
+form{
+    max-width: 100%;
+}
+
+#carac{
+    background: #F0F0F0;
+    margin: 0px 20px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    padding: 0px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #636363;
+    text-align: center;
+}
+
+.titulos{
+    text-align: center;
+    text-decoration: underline #D58A6E;
+    font-size: 28px;
+}
+
+.tablas{
+    max-width: 100%;
+    margin: 10px 55px;
+    border: 6px solid #D58A6E;
+    border-radius: 24px;
+}
+
+th{
+    text-align: center;
+    padding: 0px 160px;
+    max-width: 100%;
+    border-bottom: 6px solid #A3CEEF;
+    border-radius: 16px;
+    background: #A3CEEF;
+    color: #636363;
+}
+
+td{
+    text-align: center;
+    padding: 20px 20px;
+    border-bottom: 6px solid #A3CEEF;
+    border-radius: 16px;
+}
+
+.opciones{
+    border: 3px solid transparent;
+    border-image: linear-gradient(90deg, #D58A6E, #A3CEEF) 1;
+    background-color: #F0F0F0;
+    color: #636363;
+    font-size: 17px;
+    width: 300px;
+}
+
+#BotonSesion{
+    width: 250px;
+    color: #BC544B;
+    float: end;
+}
+
+.checkbox{
+    width: 25px;
+    height: 20px;
+    position: absolute;
+}
+
+footer{
+    background-image: linear-gradient(90deg, #D58A6E, #A3CEEF);
+    max-width: 100%;
+    padding: 11px 12px;
+}
+
+footer p{
+    color: white;
+    font-size: 18px;
+}
+
+footer a{
+    color: white;
+    margin-top: -40px;
+    float: right;
+}
+
+footer a:hover{
+    transition: linear 0.4s;
+    color: black;
+}

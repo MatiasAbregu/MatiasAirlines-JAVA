@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    font-family: 'Lora', serif;
+}
+
+header{
+    background-image: linear-gradient(90deg, #D58A6E, #A3CEEF);
+    max-width: 100%;
+}
+
+#titulo{
+    margin: 23px 0px 0px 10px;
+    position: absolute;
+    display: inline-block;
+    color: white;
+    max-width: 100%;
+}
+
+#logo{
+    width: 5.5rem;
+    display: inline-block;
+    max-width: 100%;
+}
+
+#navegador{
+    display: inline-block;
+    list-style-type: none;
+    max-width: 100%;
+    float: right;
+    margin: 0px;
+    background-color: #F0F0F0;
+    padding: 0rem 0rem 0rem 63rem;
+}
+
+.Elementos{
+    display: inline-block;
+    margin-left: -5px;
+    padding: 15px 20px;
+    border-left: solid 1px #B8B8B8;
+    text-decoration: none;
+}
+
+.Vinculos{
+    color: #636363;
+    text-decoration: none;
+}
+
+.Elementos:hover{
+    transition: ease-in-out 0.4s;
+    background-color: white;
+    cursor: pointer;
+}
+
+section{
+    min-height: calc(100vh - 1.3rem - 100px);
+    max-width: 100%;
+}
+
+section article{
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 40px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px solid transparent;
+    border-image: linear-gradient(160deg, #D58A6E, #A3CEEF) 1;
+    box-shadow: 0px 1px 10px black;
+}
+
+section h2{
+    text-decoration: underline #D58A6E;
+    font-size: 2rem;
+}
+
+.objetos-formulario{
+    max-width: 100%;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, #D58A6E, #A3CEEF) 1;
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+}
+
+#usuario{
+    width: 240px;
+    margin-right: 58px;
+    max-width: 100%;
+}
+
+#Contrasena{
+    margin-left: 56px;
+    width: 240px;
+    max-width: 100%;
+}
+
+#IniciarSesion{
+    padding: 10px 45px;
+    background-image: linear-gradient(90deg, #D58A6E, #A3CEEF);
+    color: white;
+    font-size: 18px;
+    border: 0px solid transparent;
+    transition: box-shadow ease 1s;
+    max-width: 100%;
+}
+
+#IniciarSesion:hover{
+    cursor: pointer;
+    animation: gradient 3s linear infinite;
+    box-shadow: 0px 1px 5px #636363;
+    max-width: 100%;
+}
+
+@keyframes gradient{
+
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 75px 0;
+    }
+
+    100% {
+        background-position: 150px 0;
+    }
+}
+
+footer{
+    background-image: linear-gradient(90deg, #D58A6E, #A3CEEF);
+    max-width: 100%;
+    padding: 9px 12px;
+}
+
+footer p{
+    color: white;
+    font-size: 18px;
+}
+
+footer a{
+    color: white;
+    margin-top: -40px;
+    float: right;
+}
+
+footer a:hover{
+    transition: linear 0.4s;
+    color: black;
+}
